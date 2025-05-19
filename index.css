@@ -2,7 +2,79 @@ body {
     margin: 0;
 }
 
+@font-face {
+    font-family: gameFont;
+    src: url("./CursedTimerUlil-Aznm.ttf");
+}
+
+
 .container {
     display: flex;
     justify-content: space-around;
+    background:#1B244A;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.score-card{
+    text-align: center;
+    width: 15-px;
+    height: 100px;
+    background: #080001;
+    border-radius: 5px;
+    margin: 0;
+    
+}
+
+.team-title { 
+    color: #EEEEEE;
+    font-size: 30px;
+    margin: 50px 0 10px 0;
+    
+}
+.points {
+    color:#F94F6D;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 15px;
+    font-family: gameFont;
+      
+}
+
+.point-container{
+    display: flex;
+    justify-content: center;
+    font-family: gameFont;
+    
+    
+    
+}
+
+.row-of-points {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height:100px;
+    width: 135px;
+    font-family: gameFont;
+    
+}
+
+.plus-point {
+    color: #9AABD8;
+    font-size: 16px;
+    background: none;
+    border: none;
+}
+
+.point-border {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #9AABD8;
+        height: 35px;
+        width: 35px;
+        border-radius: 5px
+
 }

@@ -5,10 +5,43 @@
     <body>
         <div class="container">
             <div>
-                <h3>HOME</h3>
+                <div id="team-container"></div>
+                <h3 class="team-title">HOME</h3>
+                <div class="score-card">
+                    <div class="point-container">
+                        <p id="HomePoints" class="points">0</p>
+                    </div>
+                </div>
+                <div class="row-of-points">
+                    <span class="point-border">
+                        <button id="plusOneHomeTeam" class="plus-point" onclick="plusOneH()">+1</button>
+                    </span>
+                    <span class="point-border">
+                        <button id="plusTwoHomeTeam" class="plus-point"  onclick="plusTwoH()">+2</button>
+                    </span>
+                    <span class="point-border">
+                        <button id="plusThreeHomeTeam" class="plus-point"  onclick="plusThreeH()">+3</button>
+                    </span>
+                </div>
             </div>
             <div>
-                <h3>AWAY</h3>
+                <h3 class="team-title">GUEST</h3>
+                <div class="score-card">
+                    <div class="point-container">
+                        <p id="GuestPoints" class="points">0</p>
+                    </div>                
+                </div>
+                <div class="row-of-points">
+                    <span class="point-border">
+                        <button id="plusOneGuestTeam" class="plus-point" onclick="plusOneG()">+1</button>
+                    </span>
+                    <span class="point-border">
+                        <button id="plusTwoGuestTeam"  class="plus-point"  onclick="plusTwoG()">+2</button>
+                    </span>
+                    <span class="point-border">
+                        <button id="plusTgreeGuestTeam" class="plus-point"  onclick="plusThreeG()">+3</button>
+                    </span>
+                </div>
             </div>
         </div>
         <script src="index.js"></script>
